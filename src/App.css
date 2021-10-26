@@ -1,16 +1,33 @@
 * {
   font-family: "Raleway", sans-serif;
+  color: gray;
+  background-color: aliceblue;
 }
 
 h1 {
-  color: pink;
+  color: darkgray;
+  display: flex;
+  justify-content: center;
+  font-size: 2rem;
 }
 
 footer {
-  color: pink;
+  color: darkgray;
+  display: flex;
+  justify-content: center;
+  color: darkgray;
+}
+
+body {
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+  grid-template-rows: 20% 20% 20% 20% 20%;
+  background-color: red;
 }
 
 .card {
+  grid-column: 6/6;
+  grid-row: 1/6;
   width: 200px;
   height: 100px;
 }
