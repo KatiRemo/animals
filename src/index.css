@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway&family=Roboto+Condensed&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: lavenderblush;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+header nav {
+  text-align: center;
+  padding: 10px;
+  margin: 10px;
+  color: gray;
+}
+
+header,
+footer {
+  padding: 2rem;
+  text-align: center;
+}
+
+.animalsList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 0 2rem;
+}
+
+.card {
+  background-color: lavenderblush;
+  box-shadow: 0 0 5px gray;
+  width: 250px;
+  border-radius: 7%;
+  display: inline-block;
+  margin: 1rem;
+  text-transform: capitalize;
+  filter: grayscale(100%);
+  transition: all 1s;
+}
+
+.card:hover {
+  background-color: lavenderblush;
+  box-shadow: 0 0 20px gray;
+  border-radius: 7%;
+  display: inline-block;
+  margin: 1rem;
+  text-transform: capitalize;
+  filter: grayscale(0%);
+  cursor: pointer;
+}
+
+.card h3 {
+  padding: 0.5rem;
+  font-size: 1.2rem;
+}
+
+.card img {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 7px 7px 0 0;
+}

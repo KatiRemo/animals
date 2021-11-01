@@ -1,20 +1,29 @@
 import React from 'react';
-import {animals} from './animals';
+import { animals } from './animals';
 import AnimalsCard from "./AnimalsCard";
 
-const AnimalsList = () => {
-    return (
-        <div>
-            {animals.map((item) => (
-                <div>
-                    <h2>{item.name}</h2>
+import { Switch, Route, useRouteMatch } from 'react-router-dom';
+import AnimalSingle from './AnimalSingle';
 
-                    <AnimalsCard key={item.name} 
-                    name={item.name} />
-                </div>
-            ))}
-        </div>
-    );
+const AnimalsList = () => {
+  const match = useRouteMatch();
+
+  const animalslisting = animals.map((item) => (
+  <AnimalsCard key={item.name} name={item.name} />
+  ))
+
+  return (
+  <div className="animalsList">
+  <Switch>
+    <Route exact path={match.path}>
+        {animalslisting}
+    </Route>
+    <Route path={`${match.path}/:animal`}>
+      <AnimalSingle />
+    </Route>
+  </Switch>
+</div>
+);
 };
 
 export default AnimalsList;

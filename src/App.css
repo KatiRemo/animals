@@ -1,5 +1,6 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Raleway&family=Roboto+Condensed&display=swap");
+
 * {
-  font-family: "Raleway", sans-serif;
   color: gray;
   background-color: aliceblue;
 }
@@ -18,13 +19,6 @@ footer {
   color: darkgray;
 }
 
-body {
-  display: grid;
-  grid-template-columns: 20% 20% 20% 20% 20%;
-  grid-template-rows: 20% 20% 20% 20% 20%;
-  background-color: red;
-}
-
 .card {
   grid-column: 6/6;
   grid-row: 1/6;
@@ -34,4 +28,4 @@ body {
 
 .card img {
   width: 100%;
-}
+} */
