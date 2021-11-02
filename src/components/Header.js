@@ -4,7 +4,7 @@ import Nav from './Nav'
 const Header = () => {
     return (
         <header>
-            <h1>Animals List</h1>
+            <h1>Animal App</h1>
             <Nav />
         </header>
     );
