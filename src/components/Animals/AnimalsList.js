@@ -36,7 +36,10 @@ render() {
       <Switch>
         <Route exact path={this.props.match.path}>
           <div className="searchInput">
-          <input type="text" onChange={this.searchInputHandler}/>
+          <input 
+          type="text" 
+          placeholder="Search..."
+          onChange={this.searchInputHandler}/>
           </div>
         {animalslisting}
         </Route>
