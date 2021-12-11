@@ -6,7 +6,7 @@ const AnimalSingle = () => {
     let history = useHistory();
     return (
         <div>
-            <h2>Meet the {animal}</h2>
+            <h2>Meet THE {animal.toUpperCase()}</h2>
         <div className="animalCard">
             <img src={`https://source.unsplash.com/1600x900/?${animal}`} />
         </div>  

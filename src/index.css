@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Cabin&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
 
 * {
   margin: 0;
@@ -8,8 +8,13 @@
 
 body {
   margin: 0;
-  background-color: linen;
-  font-family: "Cabin", sans-serif;
+  background: rgb(250, 240, 230);
+  background: radial-gradient(
+    circle,
+    rgba(250, 240, 230, 1) 7%,
+    rgba(227, 214, 194, 1) 100%
+  );
+  font-family: "Nunito", sans-serif;
   color: #6f4e37;
 }
 
@@ -20,11 +25,16 @@ header nav {
 }
 
 header,
-footer,
 body {
-  padding: 1.5rem;
+  padding: 1rem;
   padding-bottom: 0;
   text-align: center;
+}
+
+footer {
+  position: relative;
+  bottom: 0;
+  width: 100%;
 }
 
 h2 {
@@ -84,9 +94,9 @@ h2 {
 }
 
 .animalCard {
-  background-color: #e3dac9;
-  box-shadow: 0 0 5px #bc987e;
-  width: 290px;
+  background-color: transparent;
+  box-shadow: 2px 2px 2px 2px #bc987e;
+  width: 450px;
   border-radius: 5px;
   display: inline-block;
 }
@@ -98,30 +108,32 @@ h2 {
 }
 
 .herobanner img {
-  width: 70%;
+  width: 50%;
   height: auto;
 }
 
 div {
   text-align: center;
-  padding: 1rem;
+  padding: 5px;
   margin: 20px;
 }
 
 p {
-  padding: 1rem;
+  padding: 0.5rem;
 }
 
 button {
   text-align: center;
   background-color: #e3dac9;
-  font-family: "Cabin", sans-serif;
+  font-family: "Nunito", sans-serif;
   color: #6f4e37;
+  font-size: 1.05rem;
   margin: 20px;
-  width: 100px;
+  width: 150px;
   height: 50px;
   border-radius: 5px;
-  border-color: #bc987e;
+  border: none;
+  box-shadow: 0 0 5px #6f4e37;
 }
 
 button:hover {
@@ -160,7 +172,7 @@ input {
   width: 400px;
   border-radius: 5px;
   height: 40px;
-  font-family: "Oswald", sans-serif;
+  font-family: "Nunito", sans-serif;
   color: #6f4e37;
   font-size: 1.2rem;
   padding: 1rem;

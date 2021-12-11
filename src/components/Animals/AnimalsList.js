@@ -13,12 +13,7 @@ class AnimalsList extends Component {
     this.setState({
       searchInput:event.target.value,
     });
-    // console.log(this.state.searchInput);
   };
-
-  // animalslisting = animals.map((item) => (
-  //   <AnimalsCard key={item.name} name={item.name} />
-  //   ));
 
 render() {
   const animalFilter = animals.filter(animal => {
