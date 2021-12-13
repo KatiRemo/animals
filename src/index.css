@@ -31,6 +31,10 @@ body {
   text-align: center;
 }
 
+h1 {
+  font-size: 3rem;
+}
+
 footer {
   position: relative;
   bottom: 0;
@@ -56,7 +60,7 @@ h2 {
 }
 
 .card {
-  background-color: #e3dac9;
+  background-color: #deb887;
   box-shadow: 0 0 5px #bfbab6;
   width: 250px;
   border-radius: 5px;
@@ -72,7 +76,7 @@ h2 {
 }
 
 .card:hover {
-  background-color: #fff5ee;
+  background-color: #ffebcd;
   box-shadow: 0 0 20px #bc987e;
   border-radius: 5px;
   display: inline-block;
@@ -95,16 +99,16 @@ h2 {
 
 .animalCard {
   background-color: transparent;
-  box-shadow: 2px 2px 2px 2px #bc987e;
+  box-shadow: 1px 1px 5px 5px #bc987e;
   width: 450px;
-  border-radius: 5px;
+  /* border-radius: 5px; */
   display: inline-block;
 }
 
 .animalCard img {
   width: 100%;
   object-fit: cover;
-  border-radius: 5px;
+  /* border-radius: 5px; */
 }
 
 .herobanner img {
@@ -137,12 +141,11 @@ button {
 }
 
 button:hover {
-  background-color: #e3dac9;
-  box-shadow: 0 0 5px #bc987e;
+  background-color: #bc987e;
+  box-shadow: 0 0 5px #6f4e37;
   border-radius: 5px;
   display: inline-block;
   margin: 1rem;
-  text-transform: capitalize;
   cursor: pointer;
 }
 
