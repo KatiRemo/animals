@@ -1,4 +1,4 @@
-import { NavLink, Switch, Route } from 'react-router-dom';
+import React from 'react';
 import Nav from './Nav'
 
 const Header = () => {

@@ -12,7 +12,7 @@ body {
   background: radial-gradient(
     circle,
     rgba(250, 240, 230, 1) 7%,
-    rgba(227, 214, 194, 1) 100%
+    rgba(222, 184, 135, 1) 100%
   );
   font-family: "Nunito", sans-serif;
   color: #6f4e37;
@@ -57,7 +57,7 @@ h2 {
 
 .card {
   background-color: #e3dac9;
-  box-shadow: 0 0 5px #bc987e;
+  box-shadow: 0 0 5px #bfbab6;
   width: 250px;
   border-radius: 5px;
   display: inline-block;
@@ -72,7 +72,7 @@ h2 {
 }
 
 .card:hover {
-  background-color: #e3dac9;
+  background-color: #fff5ee;
   box-shadow: 0 0 20px #bc987e;
   border-radius: 5px;
   display: inline-block;
